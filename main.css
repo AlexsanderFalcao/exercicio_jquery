@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('imagens/estampa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto; 
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 48px;
+    color: #fac3fa; 
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff; 
+    margin-bottom: 10px;
+}
+
+header button {
+    background-color: #ff00ff;
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+#task-form{
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#task-form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+#task-form button {
+    background-color: #ff00ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; 
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    max-width: 600px; 
+    margin: 0 auto 10px;
+    color: #000;
+}
+
+
+#task-list li.completed {
+    text-decoration: line-through;
+    background-color: #f8f9fa;
+}
+
+#task-list li:hover {
+    background-color: #f8f9fa;
+}
+footer {
+    background-image: url('imagens/estampa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
